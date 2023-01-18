@@ -16,7 +16,7 @@ die('oops coonection problem '.mysql_error());
  */
 $dbhost="localhost";
 $dbuser="root";
-$dbpass="";
-$db="wt";
-$conn = mysqli_connect($dbhost,$dbuser,$dbpass,$db)
+$dbpass="enyaelvis";
+$db="mysql";
+$conn = mysqli_connect($dbhost,$dbuser,$dbpass,$db);
 ?>
